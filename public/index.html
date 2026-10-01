@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#02080d">
+  <title>FRIDAY</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div class="brand">F R I D A Y</div>
+      <div id="status" class="status"><span></span> ONLINE</div>
+    </header>
+
+    <section class="hero">
+      <div class="orb"><div class="core"></div><i></i><i></i><i></i></div>
+      <div class="eyebrow">PERSONAL AI ASSISTANT</div>
+      <h1 id="headline">Good to see you.</h1>
+      <p id="sub">Your personal AI assistant is ready.</p>
+    </section>
+
+    <section id="chat" class="chat"></section>
+
+    <div class="chips">
+      <button data-msg="What can you do?">Capabilities</button>
+      <button data-msg="What time is it?">Time</button>
+      <button data-msg="Search the web for the latest technology news">Search</button>
+      <button id="voiceChip">Voice</button>
+    </div>
+
+    <section class="composer">
+      <button id="mic" class="icon" aria-label="Voice input">🎙️</button>
+      <input id="input" autocomplete="off" placeholder="Talk to FRIDAY..." />
+      <button id="send" class="send" aria-label="Send">➤</button>
+    </section>
+
+    <footer>FRIDAY · CLOUD READY · <span id="clock"></span></footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
